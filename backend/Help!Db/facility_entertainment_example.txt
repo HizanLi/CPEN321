@@ -1,0 +1,151 @@
+[{
+    "_id" : "1",
+    "facility" : {
+		"facility_status": "normal",
+		"facilityType" : "entertainments",
+            "facilityTitle" : "AMS Student Nest",
+            "facilityDescription" : "The AMS Student Nest is a campus hub for students to eat, shop, socialize and study.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994306235526557746/unknown.png",
+            "facilityOverallRate" : 0.1,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2500,
+            "latitude" :  49.2664
+    },
+    "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+                   
+            }
+    ]
+},
+{
+    "_id" : "2",
+    "facility" : {
+		"facility_status": "normal",
+		"facilityType" : "entertainments",
+            "facilityTitle" : "ARC",
+            "facilityDescription" : "The ARC opened in February 2018 and is focused on creating a comfortable, welcoming, and inclusive environment for those new to fitness and training activities.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994307791202304061/unknown.png",
+            "facilityOverallRate" : 0.2,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2500,
+            "latitude" : 49.2675
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "3",
+    "facility" : {
+		"facility_status": "normal",
+		"facilityType" : "entertainments",
+            "facilityTitle" : "BirdCoop Fitness Centre",
+            "facilityDescription" : "Close to ARC and it offers rock climbing",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994309297385250816/unknown.png",
+            "facilityOverallRate" : 0.3,
+            "numberOfRates" : 0,
+            "longtitude" : -123.24895,
+            "latitude" : 49.26836
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "4",
+    "facility" : {
+		"facility_status": "normal",
+		"facilityType" : "entertainments",
+            "facilityTitle" : "UBC Aquatic Centre",
+            "facilityDescription" : "The UBC Aquatic Centre is a state-of-the-art facility that serves athletic training, competition, and neighbourhood leisure needs.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994310247063769270/unknown.png",
+            "facilityOverallRate" : 0.4,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2488,
+            "latitude" : 49.2678
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "5",
+    "facility" : {
+		"facility_status": "normal",
+		"facilityType" : "entertainments",
+            "facilityTitle" : "UBC Tennis Centre",
+            "facilityDescription" : "The UBC Tennis Centre has a total of 12 indoor courts and 1 outdoor court.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994311953273077871/unknown.png",
+            "facilityOverallRate" : 0.5,
+            "numberOfRates" : 0,
+            "longtitude" : -123.24356,
+            "latitude" : 49.25943
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "6",
+    "facility" : {
+		"facility_status": "normal",
+		"facilityType" : "entertainments",
+            "facilityTitle" : "Thunderbird Basketball Court",
+            "facilityDescription" : "Construction is in progress on a new outdoor basketball court at the University of British Columbia's Point Grey campus.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994313190219468840/unknown.png",
+            "facilityOverallRate" : 0.6,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2515,
+            "latitude" : 49.2578
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+}
+]

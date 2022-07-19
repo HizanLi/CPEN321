@@ -1,0 +1,16 @@
+use('testDB');
+
+
+db.users.insertOne(
+  {
+    '_id' : "usergmail",
+    'account_type' : 0,
+    'account_status' : 0, 
+    'username': "google last + google first name", 
+    'user_logo': "https://xxx.xxx.xxx/", 
+    'number_of_credit': 0, 
+    'number_of_rate': 0, 
+    'number_of_reply': 0, 
+    'number_of_facility': 0
+  }
+);

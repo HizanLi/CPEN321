@@ -1,0 +1,87 @@
+app.get('/user/Report',
+ async function (req, res) {
+    var myDb = "facility";
+    var myCollection;
+    var report_Type = "facility";
+    if (report_Type == "facility"){
+        myCollection = "reportedFacility";
+        var reportedFacilityID = 88888;
+        var reportedFacilityType = "entertainment";
+        var reporterID = "jiajungao0124@gmail.com";
+        var reportReason = "idk caonima";
+        var idInsideReportCollection;
+        var facilityObj = { 
+            newId: idInsideReportCollection,
+            report_Type: report_Type,
+            facility_id: reportedFacilityID,
+            facility_type: reportedFacilityType,
+            reporter_id: reporterID,
+            reason: reportReason
+            }; 
+
+        
+        var finalStatusResult;
+        var finalDecisionToFrontEnd;
+        //sending request to admin and wait for approbal or denial
+        await client.db(myDb).collection(myCollection).insertOne(facilityObj, function(err, res) {
+            var finalResult = JSON.stringify(res);
+            if (err) throw err;
+            console.log(finalResult);
+            var url = 'http://20.213.243.141:8000/admin/ApprovalofFacility';
+            request(url, function(err, response, body) {
+            if (err != null) {
+                var s = util.format("Error: %s", err);
+                console.log(s);
+                res.send(s);
+                return;
+            }
+            finalStatusResult = JSON.stringify(body);
+            console.log("the status for the request is : " + finalStatusResult);
+            idInsideReportCollection = JSON.stringify(facilityObj._id);
+            console.log("id in reportCollection now is : " + idInsideReportCollection);
+            // res.send(idInsideReportCollection);
+           
+            var myquery = {facility_id: 88888};
+            var newvalues = { $set: {facility_status: finalStatusResult} };
+
+            client.db(myDb).collection("facility").updateOne(myquery, newvalues, function(err, res) {
+            if (err) throw err;
+            console.log("The status for updating field is:" + JSON.stringify(res));      
+            });
+
+         
+             
+            }); 
+           
+          });
+          client.db(myDb).collection("facility").find({facility_id:reportedFacilityID}).toArray(function(err, result) {
+            if (err) throw err;
+            finalDecisionToFrontEnd = JSON.stringify(result);
+            console.log("finded facility result is:" + finalDecisionToFrontEnd);
+            res.send(finalDecisionToFrontEnd+JSON.stringify({new_id:facilityObj._id}));  
+          });
+        // res.send(facilityObj._id);
+    
+    }  
+ }
+)
+
+app.get('/admin/ApprovalofFacility',
+ async function (req, res) {
+    var responseJson = {
+        temp_id: 1,
+        approve: 1
+    }
+    var finalResult = JSON.stringify(responseJson);
+     if(responseJson.approve == 0){
+         res.send ("report is unsuccessful");
+         console.log("report not succeeeded");
+     }
+     else{
+         res.send(finalResult); //would it be better to just get name of faility?
+         console.log("admin decision status for reported facility is:  " + finalResult);
+     }      
+     
+ }
+)
+

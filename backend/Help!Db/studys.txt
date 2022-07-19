@@ -1,0 +1,151 @@
+[{
+    "_id" : "1",
+    "facility" : {
+	   "facility_status": "normal",
+	   "facilityType" : "studys",
+            "facilityTitle": "The Irving K. Barber Learning Centre",
+            "facilityDescription": "The Irving K. Barber Learning Centre is a facility at the Vancouver campus of the University of British Columbia. The Learning Centre is built around the refurbished core of the 1925 UBC Main Library.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994316357028036738/unknown.png",
+            "facilityOverallRate" : 0.1,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2527,
+            "latitude" :  49.2675
+    },
+    "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+                   
+            }
+    ]
+},
+{
+    "_id" : "2",
+    "facility" : {
+	   "facility_status": "normal",
+	    "facilityType" : "studys",
+            "facilityTitle" : "Walter C. Koerner Library",
+            "facilityDescription" : "The Walter C. Koerner Library is an academic library at the Vancouver campus of the University of British Columbia. The library is named after Walter C. Koerner, a Canadian businessman and philanthropist.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994317366450196490/unknown.png",
+            "facilityOverallRate" : 0.2,
+            "numberOfRates" : 0,
+            "longtitude" : -123.1518,
+            "latitude" : 49.1560
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "3",
+    "facility" : {
+	   "facility_status": "normal",
+	    "facilityType" : "studys",
+            "facilityTitle" : "Woodward Library",
+            "facilityDescription" : "The Woodward Library is located on the east side of Health Sciences Mall in the Health Sciences Complex northwest of the UBC Hospital.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994318792102523000/unknown.png",
+            "facilityOverallRate" : 0.3,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2479,
+            "latitude" : 49.26436
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "4",
+    "facility" : {
+	    "facility_status": "normal",
+	    "facilityType" : "studys",
+            "facilityTitle" : "Ponderosa Study Rooms",
+            "facilityDescription" : "Three study rooms located next to Mercante Café are available on a first-come, first-serve basis. Rooms are furnished with group tables and chairs.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994319612923613344/unknown.png",
+            "facilityOverallRate" : 0.4,
+            "numberOfRates" : 0,
+            "longtitude" : -123.256715,
+            "latitude" : 49.264114
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "5",
+    "facility" : {
+	   "facility_status": "normal",
+	   "facilityType" : "studys",
+            "facilityTitle" : "UBC Life Building",
+            "facilityDescription" : "The UBC Life Building is a central and vibrant hub to study, work out, grab a bite to eat, and access student services and programs.",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994320469324988446/unknown.png",
+            "facilityOverallRate" : 0.5,
+            "numberOfRates" : 0,
+            "longtitude" : -123.2500,
+            "latitude" : 49.2675
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+},
+{
+    "_id" : "6",
+    "facility" : {
+	   "facility_status": "normal",
+	    "facilityType" : "studys",
+            "facilityTitle" : "Earth Sciences Building",
+            "facilityDescription" : "The former proposal is for the current Earth Systems Science Building (ESSB) which includes teaching, laboratory, and office spaces for the Department of Earth and Ocean Science (EOS), the Department of Statistics, the Pacific Institute for Mathematical Sciences (PIMS), the Dean of Science, and the Pacific Museum of the Earth (PME).",
+            "timeAdded" : "2022/07/06",
+            "facilityImageLink" : "https://cdn.discordapp.com/attachments/984213736652935230/994322067686166629/unknown.png",
+            "facilityOverallRate" : 0.6,
+            "numberOfRates" : 0,
+            "longtitude" : -123.252045,
+            "latitude" : 49.263108
+    },
+     "ratedUser" : [
+            {
+
+            }
+    ],
+    "reviews" : [
+            {
+
+            }
+    ]
+}
+]
